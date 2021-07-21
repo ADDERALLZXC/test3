@@ -1,10 +1,10 @@
 let images = new Array();
 
 let i;
-let nImages = 5;
+let nImages = 18;
 i = 1;
 for(i = 1;i<=nImages; i++) {
-	images[i] = 'images/0' + i.toString() + '.jpg';
+	images[i] = 'images/' + i.toString() + '.jpg';
 }
 
 console.log(i);
